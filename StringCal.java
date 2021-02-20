@@ -7,8 +7,12 @@ public class StringCal{
 	}
 	
 	public static int add(String str){
-		
-		return 0;
+		if(str == ""){
+			return 0;
+		}
+		else{
+			return Integer.parseInt(str);
+		}
 	}
 	
 	public static void ReturnZeroIfNull(){
